@@ -6,6 +6,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    private String name;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Toast.makeText(this,"Hello Word",Toast.LENGTH_SHORT).show();
+
 
     }
 }
